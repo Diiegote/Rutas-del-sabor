@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contacto</title>
+   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+   <script src="../js/navbar.js"></script>
+   <script src="../js/footer.js"></script>
+   <link rel="stylesheet" href="../css/contacto.css">
+   
+</head>
+
+<body>
+   <div id="navbar"></div>
+   <form id="formulario" action="mailto:fabrisegat03@gmail.com" method="post" enctype="text/plain">
+      <fieldset>
+        <legend>Datos de contacto</legend>
+        <div class="input-container">
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" name="nombre" id="nombre" required title="Completa este campo" placeholder="Nombre y apellido">
+        </div>
+    
+        <div class="input-container">
+          <label for="mail">Correo:</label>
+          <input type="email" name="mail" id="mail" required title="Completa este campo" placeholder="Ejemplo@ejemplo.com">
+        </div>
+    
+        <div class="input-container">
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" name="telefono" id="telefono" required title="Completa este campo" placeholder="Teléfono">
+        </div>
+    
+        <div class="input-container">
+          <label for="datos">Consulta:</label>
+          <textarea name="consulta" id="datos" cols="20" rows="5" required title="Completa este campo" placeholder="Mensaje"></textarea>
+        </div>
+      </fieldset>
+      <button type="submit">Enviar</button>
+    </form>
+    
+    
+    
+   <div id="footer"></div>
+</body>
+
+</html>

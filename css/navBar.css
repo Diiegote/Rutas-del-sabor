@@ -1,0 +1,38 @@
+.navbar {
+  overflow: hidden;
+  /* background: linear-gradient(to right, #1c92d2, #f2fcfe); */
+  background-color: #9a784f82; /* Color de fondo negro con 70% de opacidad */
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:1.5rem;
+  font-family:monospace;
+    color: black; /* Color de texto blanco */
+}
+
+.navbar li a.active {
+  background-color: #4b86a4;
+}
+
+
+/* .navbar li a.active {
+  font-weight: bold;
+} */
