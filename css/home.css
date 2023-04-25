@@ -27,7 +27,7 @@
 
 .card img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .card-description {
@@ -122,6 +122,7 @@
   width: 100%;
   z-index: 1000;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  
 }
 
 .navbar-home ul {
