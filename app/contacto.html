@@ -10,47 +10,39 @@
    <script src="../js/navbar.js"></script>
    <script src="../js/footer.js"></script>
    <link rel="stylesheet" href="../css/contacto.css">
+   
 </head>
 
 <body>
    <div id="navbar"></div>
-   <h1>Contacto</h1>
-   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam saepe eos mollitia tempore hic commodi, dolore
-      esse quis beatae quaerat vitae perspiciatis fugit ea dignissimos assumenda? Error perferendis porro, enim
-      laboriosam laborum et, facilis quisquam at, vel provident ipsum. Consectetur ut numquam obcaecati perspiciatis
-      aliquam nisi aliquid molestiae velit molestias, vel sint dignissimos excepturi eos quos. Molestiae, libero
-      dolores? Delectus nesciunt inventore nam ad illum aliquid magni debitis optio quod repudiandae sapiente impedit,
-      aspernatur dolores consectetur, quos eum harum nisi voluptatum autem explicabo, laborum voluptas deleniti aliquam?
-      Autem sed repudiandae eveniet! Architecto corrupti id accusantium nihil dolore atque sapiente quasi asperiores
-      iusto quidem laboriosam totam cum odit dignissimos quae veritatis provident suscipit inventore, tempora, doloribus
-      soluta. Hic velit quis blanditiis dicta cum quia quaerat officiis est illum laborum atque natus, quibusdam harum
-      delectus quae vero odit voluptatum laboriosam sint sunt dolore. Totam animi quaerat repudiandae enim asperiores.
-      Aliquam fuga dolorem nihil aperiam dicta sapiente quaerat adipisci eveniet similique quidem rerum magnam ex, atque
-      distinctio molestias vero sed explicabo suscipit? Doloribus soluta sunt magni ipsa repellendus! Aspernatur,
-      exercitationem doloremque dolores impedit nam blanditiis iusto neque tempora fugiat dolorem! Adipisci corporis
-      molestias aut velit ipsum sequi dicta provident ducimus odio fuga minus unde excepturi, pariatur ipsam id dolorum
-      tenetur delectus sapiente assumenda itaque magnam voluptatem maxime rerum? Quam explicabo asperiores iste dolores,
-      commodi nobis illo placeat pariatur incidunt non rem laboriosam soluta doloremque exercitationem sed officiis
-      quaerat consequuntur? Vitae aliquam impedit excepturi blanditiis nobis dolores quaerat ea error quia ut.
-      Accusantium harum recusandae obcaecati et, tempora natus nesciunt. Suscipit adipisci porro impedit perspiciatis
-      asperiores totam necessitatibus optio excepturi neque tenetur eligendi, consequuntur quas nulla quis qui non quo
-      ducimus odit placeat. Animi laboriosam cum nulla ipsam quis nam praesentium veniam asperiores minus reiciendis
-      voluptatem quisquam eum, veritatis dicta vero, quasi quo fugit. Hic praesentium accusamus blanditiis temporibus
-      esse veniam qui debitis aliquam soluta in laboriosam obcaecati repellat vitae saepe provident minima alias facere,
-      accusantium dolorem quae. A illo, non praesentium dolores minima labore explicabo illum ratione molestiae quod
-      perspiciatis autem aut sunt vitae perferendis est quia neque vero quas repudiandae recusandae laudantium placeat
-      dolor doloribus? Eligendi quam harum, ullam delectus non, veniam alias ab laboriosam dolorem dignissimos nesciunt,
-      praesentium vitae. Aliquid esse nobis deserunt tempore, excepturi deleniti. Obcaecati doloribus, laudantium porro
-      esse ab inventore, labore deserunt accusantium velit repellat optio voluptas tenetur magni reprehenderit id
-      voluptate corrupti asperiores laboriosam aperiam. Iure, voluptas, aut dolor eos in doloribus sint dolores aperiam
-      fugiat magnam rem accusamus perferendis quae numquam. Cumque impedit eligendi alias minima corporis explicabo
-      blanditiis mollitia molestias incidunt! Assumenda, eligendi pariatur natus quia odio temporibus expedita totam ex,
-      eveniet quos quis consequatur repudiandae, sapiente architecto ratione commodi. Illum incidunt tenetur repudiandae
-      reprehenderit exercitationem laudantium consectetur excepturi et laborum minima earum ut facere fugiat, temporibus
-      quisquam quos porro nesciunt possimus. Cupiditate aliquam soluta quo omnis minima similique vel! Quas atque,
-      explicabo voluptas illum quibusdam eligendi cum beatae voluptatem dolorem cupiditate nemo iusto! Tempora rerum
-      delectus quod quae alias ea. Fuga quas quisquam ad.</p>
-   </div>
+   <form id="formulario" action="mailto:fabrisegat03@gmail.com" method="post" enctype="text/plain">
+      <fieldset>
+        <legend>Datos de contacto</legend>
+        <div class="input-container">
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" name="nombre" id="nombre" required title="Completa este campo" placeholder="Nombre y apellido">
+        </div>
+    
+        <div class="input-container">
+          <label for="mail">Correo:</label>
+          <input type="email" name="mail" id="mail" required title="Completa este campo" placeholder="Ejemplo@ejemplo.com">
+        </div>
+    
+        <div class="input-container">
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" name="telefono" id="telefono" required title="Completa este campo" placeholder="Teléfono">
+        </div>
+    
+        <div class="input-container">
+          <label for="datos">Consulta:</label>
+          <textarea name="consulta" id="datos" cols="20" rows="5" required title="Completa este campo" placeholder="Mensaje"></textarea>
+        </div>
+      </fieldset>
+      <button type="submit">Enviar</button>
+    </form>
+    
+    
+    
    <div id="footer"></div>
 </body>
 
