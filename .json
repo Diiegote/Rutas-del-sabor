@@ -1,0 +1,72 @@
+{
+   "argentina": {
+      "id": 1,
+      "nombre": "Asado",
+      "imagen": "https://i.imgur.com/6vQDCBB.jpg",
+      "detail": "El asado es un plato típico de Argentina, que consiste en un corte de carne vacuna cocinada a la parrilla. Es un plato muy popular en reuniones familiares o entre amigos, y se suele acompañar con ensalada, pan y vino.",
+      "ciudad": "Buenos Aires - Para probar un buen asado en Buenos Aires, te recomiendo que visites la parrilla La Cabrera, ubicada en el barrio de Palermo. Es un lugar muy popular y suele haber bastante gente, pero la calidad del asado y los demás platos que ofrecen es excelente."
+   },
+   "francia": {
+      "id": 1,
+      "nombre": "Croissants",
+      "imagen": "https://i.imgur.com/PLjPpCo.jpg",
+      "detail": "Los croissants son un panecillo de origen francés, de forma media luna y hojaldrado. Se suelen tomar para el desayuno o la merienda, y se pueden comer solos o con mantequilla y mermelada.",
+      "ciudad": "París - Si quieres probar unos croissants auténticos en París, te recomiendo que vayas a la boulangerie-pâtisserie Dupain, en el barrio de Montmartre. Es un lugar pequeño pero acogedor, y los croissants son deliciosos."
+   },
+   "italia": {
+      "id": 2,
+      "nombre": "Lasagna",
+      "imagen": "https://i.imgur.com/t5KTVy5.jpg",
+      "detail": "La lasaña es un plato de origen italiano, que consiste en capas de pasta intercaladas con una mezcla de carne, tomate, queso y bechamel. Es un plato muy popular en todo el mundo, y se suele servir en porciones individuales.",
+      "ciudad": "Roma - Si quieres probar una buena lasaña en Roma, te recomiendo que vayas al restaurante da Enzo al 29, en el barrio de Trastevere. Es un lugar pequeño pero acogedor, y la lasaña es uno de los platos más populares del menú."
+   },
+   "españa": {
+      "id": 1,
+      "nombre": "Paella",
+      "imagen": "https://i.imgur.com/CLjKwVH.jpg",
+      "detail": "La paella es un plato típico de la cocina española, originario de Valencia. Se elabora con arroz, mariscos, verduras y azafrán, y se suele cocinar en una paellera (un recipiente plano y ancho). Es un plato muy popular en todo el país, y se suele servir en grandes cantidades para compartir.",
+      "ciudad": "Valencia - Para probar una buena paella en Valencia, te recomiendo que vayas al restaurante La Pepica, ubicado en la playa de la Malvarrosa. Es un lugar muy tradicional y suele estar bastante concurrido, pero lacalidad de la paella y el ambiente son excelentes."
+   },
+   "india": {
+      "id": 1,
+      "nombre": "Pollo Tikka Masala",
+      "imagen": "https://i.imgur.com/Jf1jI9X.jpg",
+      "detail": "El pollo tikka masala es un plato originario de la India, que consiste en trozos de pollo marinados en especias y yogur, cocidos en un horno tandoori y luego servidos en una salsa cremosa de tomate y especias. Es un plato muy popular en todo el mundo, y se suele acompañar con arroz o naan (pan indio).",
+      "ciudad": "Nueva Delhi - Si quieres probar un buen pollo tikka masala en Nueva Delhi, te recomiendo que vayas al restaurante Karim's, en el barrio de Chandni Chowk. Es un lugar muy concurrido pero la calidad de la comida es excelente."
+   },
+   "rusia": {
+      "id": 2,
+      "nombre": "Pelmeni",
+      "imagen": "https://i.imgur.com/M1zAeVA.jpg",
+      "detail": "Los pelmeni son un plato típico de la cocina rusa, que consiste en una masa rellena de carne picada y cebolla, cocida en agua o caldo. Se suelen servir con crema agria y eneldo. Es un plato muy popular en todo el país, y se puede encontrar en muchos restaurantes y puestos de comida callejera.",
+      "ciudad": "Moscú - Si quieres probar unos buenos pelmeni en Moscú, te recomiendo que vayas al restaurante Dr. Zhivago, ubicado en el Hotel Nacional. Es un lugar elegante y con una amplia variedad de platos típicos rusos, incluyendo los pelmeni."
+   },
+   "china": {
+      "id": 1,
+      "nombre": "Arroz frito",
+      "imagen": "https://i.imgur.com/zNvzc25.jpg",
+      "detail": "El arroz frito es un plato muy popular en la cocina china, que consiste en arroz salteado en un wok con diferentes ingredientes, como huevo, verduras, carne y salsa de soja. Es un plato muy versátil y se puede adaptar a los gustos de cada persona.",
+      "ciudad": "Pekín - Si quieres probar un buen arroz frito en Pekín, te recomiendo que vayas al restaurante Made in China, en el Hotel Grand Hyatt. Es un lugar muy elegante y la calidad de la comida es excelente."
+   },
+   "el salvador": {
+      "id": 1,
+      "nombre": "Pupusas",
+      "imagen": "https://i.imgur.com/HQV7ivf.jpg",
+      "detail": "Las pupusas son un plato típico de El Salvador, que consiste en una masa de maíz rellena de queso, frijoles o chicharrón, y cocida en una plancha. Se suelen servir con salsa de tomate y curtido (ensalada de repollo). Es un plato muy popular en todo el país, y se puede encontrar en muchos puestos de comida callejera.",
+      "ciudad": "San Salvador - Si quieres probar unas buenas pupusas en SanSalvador, te recomiendo que vayas al Mercado de Antiguo Cuscatlán. Allí encontrarás muchos puestos de comida callejera donde podrás probar pupusas de diferentes sabores y rellenos."
+   },
+   "dubai": {
+      "id": 1,
+      "nombre": "Machboos",
+      "imagen": "https://i.imgur.com/gbjhmnE.jpg",
+      "detail": "El machboos es un plato típico de la cocina emiratí, que consiste en arroz cocido con carne de cordero o pollo, cebolla, tomate, especias y azafrán. Es un plato muy aromático y sabroso, y se suele servir con salsa de yogur y ensalada.",
+      "ciudad": "Dubái - Si quieres probar un buen machboos en Dubái, te recomiendo que vayas al restaurante Al Fanar, en el Dubai Festival City Mall. Es un lugar muy auténtico y la calidad de la comida es excelente."
+   },
+   "mexico": {
+      "id": 1,
+      "nombre": "Tacos al pastor",
+      "imagen": "https://i.imgur.com/GV5SPdO.jpg",
+      "detail": "Los tacos al pastor son un plato típico de la cocina mexicana, que consiste en carne de cerdo marinada en achiote y especias, asada en un trompo y luego servida en tortillas de maíz con cebolla, cilantro y piña. Es un plato muy popular en todo el país, y se puede encontrar en muchos puestos de comida callejera.",
+      "ciudad": "Ciudad de México - Si quieres probar unos buenos tacos al pastor en la Ciudad de México, te recomiendo que vayas a El Tizoncito, en la colonia Condesa. Es un lugar muy concurrido pero la calidad de la comida es excelente."
+   }
+}
