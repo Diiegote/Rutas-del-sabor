@@ -63,7 +63,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 60vw;
-  width: 100%;
+  max-width: 100%;
+  /* background-position: center center; */
 }
 
 .botones {
@@ -108,3 +109,184 @@
   padding: 20rem;
   font-family: monospace;
 }
+
+
+/* @media (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    height: 350px;
+    width: 28rem;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    height: 300px;
+    width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .container-info {
+    display: flex;
+    margin-left: -11rem;
+    font-size: xx-small;
+  }
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin-left: 13rem;
+  }
+  .card {
+    height: 250px;
+    width: 13rem;
+    margin-left: 0.1rem;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  .botones button a {
+   margin-left: -22px;
+   color:white;
+   text-shadow: 4px 4px 5px rgba(0, 0, 0, 10);
+   font-size: 2rem;
+   
+  }
+  .botones {
+    gap: 1px;
+    margin-left: -10px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .botones button {
+    font-size: 1.1rem;
+    width: 12rem;
+    
+    border: 3px solid;
+  }
+  .container {
+    height: 45rem;
+    max-width: 100% ;
+  }
+  .container-info h1 {
+    font-size: 1.5rem ;
+    color:white;
+    text-shadow: 4px 2px 4px rgba(0, 0, 0, 5);
+  }
+  
+  .container-info h2 {
+    display: flex;
+    margin-left: 0.1rem;
+    font-size: 2rem;
+    margin-top: -10rem;
+    color: white;
+    text-shadow: 4px 2px 4px rgba(0, 0, 0, 5);
+    
+  }
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin-left: 11.6rem;
+  }
+  .card {
+    height: 250px;
+    width: 13rem;
+    margin-left: 0.1rem;
+  }
+  .card-container {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    justify-items: center;
+  }
+} */
+
+/* Punto de corte <576px */
+@media screen and (max-width: 575.98px) {
+  .grid-container {
+    margin: 2rem;
+  }
+  .card {
+    width: 60%;
+  }
+  .container-info {
+    font-size: small;
+    margin-left: -13rem; 
+    padding-top: 9rem; 
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 5);
+    color: rgb(255, 255, 255);
+  }
+  .container {
+    height: 30rem;
+
+  }
+  .botones button a {
+    
+    font-size: x-large;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 5);
+    color: white;
+    
+
+  }
+  .botones button {
+    width: 30%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:solid 2px white;
+    background-color: rgba(0, 0, 0, 0.395);
+  
+  }
+
+  
+}
+
+/* 
+@media screen and (min-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .grid-container {
+    margin: 10rem;
+  }
+  .card {
+    width: 90%;
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+  .grid-container {
+    margin: 13rem;
+  }
+  .card {
+    width: 80%;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .card {
+    width: 70%;
+  }
+}
+
+
+@media screen and (min-width: 1400px) {
+  .card {
+    width: 60%;
+  }
+} */
