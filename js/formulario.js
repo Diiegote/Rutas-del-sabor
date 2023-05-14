@@ -98,7 +98,7 @@ function validarFormulario() {
     ocultarAlerta("correo");
   }
 
-  mostrarEnvioExitoso();
+   mostrarEnvioExitoso();
   return false;
 }
 
@@ -166,19 +166,19 @@ function mostrarAlerta(mensaje, tipo, inputId) {
   }
 }
 
-function mostrarEnvioExitoso() {
-  var successModal = document.getElementById("successModal");
-  successModal.classList.add("show");
+// function mostrarEnvioExitoso() {
+//   var successModal = document.getElementById("successModal");
+//   successModal.classList.add("show");
 
-  setTimeout(function () {
-    window.location.href = 'home.html';
-  }, 3000);
+//   setTimeout(function () {
+//     window.location.href = 'home.html';
+//   }, 3000);
 
-  document.getElementById("nombre").value = "";
-  document.getElementById("apellido").value = "";
-  document.getElementById("correo").value = "";
-  document.getElementById("mensaje").value = "";
-}
+//   document.getElementById("nombre").value = "";
+//   document.getElementById("apellido").value = "";
+//   document.getElementById("correo").value = "";
+//   document.getElementById("mensaje").value = "";
+// }
 
 
 
