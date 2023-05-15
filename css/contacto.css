@@ -3,8 +3,8 @@
   margin: 0 auto;
   margin-top: 10rem;
   padding: 20px;
-  border-radius: 10px; /* Bordes redondeados */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 1); /* Sombra */
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1); 
 }
 .container .card {
   background-color: #b9bfc6 !important;
@@ -45,7 +45,7 @@
   border-radius: 5px;
   padding: 20px;
   text-align: center;
-  position: relative; /* Agrega esta línea para posicionar el ícono correctamente */
+  position: relative; 
 }
 
 .modal-body {
@@ -53,23 +53,23 @@
 }
 
 .modal-icon {
-  color: #155724; /* Cambia el color a verde */
+  color: #155724; 
   font-size: 48px;
   margin-bottom: 20px;
 }
 @media (max-width: 735px) {
   .card {
-    margin-top: 12rem; /* Ajusta el valor según sea necesario */
+    margin-top: 12rem;
   }
 }
 @media (max-width: 310px) {
   .card {
-    margin-top: 20rem; /* Ajusta el valor según sea necesario */
+    margin-top: 20rem;
   }
 }
 @media (max-width: 280px) {
   .card {
-    margin-top: 13rem; /* Ajusta el valor según sea necesario */
+    margin-top: 13rem; 
   }
 }
 
