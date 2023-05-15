@@ -63,8 +63,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 60vw;
-  min-width: 600px;
-  /* background-position: center center; */
+  min-width: 650px;
 }
 
 
@@ -110,112 +109,127 @@
   padding: 20rem;
   font-family: monospace;
 }
-
-
-/* @media (min-width: 1024px) {
-  .grid-container {
-    grid-template-columns: repeat(1, 1fr);
+@media screen and (min-width: 992px) {
+  .grid-container{
+    margin: 2rem;
+    margin-left: 1rem !important;
+    justify-items: center;
+  } 
+  .card-container {
+     grid-template-columns: repeat(2, 1fr); 
+      width: 60rem !important;
+    
   }
-  .card {
-    height: 350px;
-    width: 28rem;
-  }
-}
-
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .card {
-    height: 300px;
-    width: 400px;
-  }
-}
-@media (max-width: 400px) {
+   .card {
+    height: 15rem;
+    width: 100%;
+  } 
   .container-info {
     display: flex;
-    margin-left: -11rem;
-    font-size: xx-small;
-  }
-  .grid-container {
-    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
     justify-content: center;
-    margin-left: 13rem;
+    align-items: center;
+    font-family: monospace;
+    font-size: 1rem !important;
+    margin-left:1rem; 
+    padding-top: 20rem !important; 
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 5);
+    color: rgb(255, 255, 255);
   }
-  .card {
-    height: 250px;
-    width: 13rem;
-    margin-left: 0.1rem;
-  }
-}
-
-
-
-@media (max-width: 576px) {
-  .botones button a {
-   margin-left: -22px;
-   color:white;
-   text-shadow: 4px 4px 5px rgba(0, 0, 0, 10);
-   font-size: 2rem;
-   
+  .container  {
+    height: 65vw !important;
   }
   .botones {
-    gap: 1px;
-    margin-left: -10px;
-    display: flex;
-    flex-direction: column;
-   
+    margin-left: 5rem !important;
   }
   .botones button {
-    font-size: 1.1rem;
-    width: 12rem;
-    
-    border: 3px solid;
+    width: 13% !important ;
+    height: 5% !important;
   }
-  .container {
-    height: 45rem;
-    max-width: 100% ;
-  }
-  .container-info h1 {
-    font-size: 1.5rem ;
-    color:white;
-    text-shadow: 4px 2px 4px rgba(0, 0, 0, 5);
-  }
-  
-  .container-info h2 {
-    display: flex;
-    margin-left: 0.1rem;
-    font-size: 2rem;
-    margin-top: -10rem;
+  .botones button a {
+    font-size: 1.2rem !important;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 5);
     color: white;
-    text-shadow: 4px 2px 4px rgba(0, 0, 0, 5);
+  }
+}
+@media screen and (min-width: 768px) {
+   .grid-container{
+    margin: 2rem;
+    margin-left: 1rem;
+    justify-items: center;
+  } 
+  .card-container {
+     grid-template-columns: repeat(2, 1fr); 
+      width: 46rem;
     
   }
-  .grid-container {
-    grid-template-columns: repeat(1, 1fr);
+   .card {
+    height: 15rem;
+    width: 100%;
+  } 
+  .container-info {
+    display: flex;
+    text-align: center;
     justify-content: center;
-    margin-left: 11.6rem;
+    align-items: center;
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin-left:1rem; 
+    padding-top: 10rem; 
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 5);
+    color: rgb(255, 255, 255);
   }
-  .card {
-    height: 250px;
-    width: 13rem;
-    margin-left: 0.1rem;
+  .botones {
+    margin-left: 1rem;
   }
-  .card-container {
-    display: grid;
-    justify-content: center;
-    margin: 0 auto;
+  .botones button a {
+    font-size: 2rem;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 5);
+color: white;
+  }
+}
+@media screen and (min-width: 576px) {
+  .grid-container{
+    margin: 2rem;
+    margin-left: 3rem;
     justify-items: center;
   }
-} */
-
-/* Punto de corte <576px */
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 35rem;
+    
+  }
+  .card {
+    height: 15rem;
+    width: 100%;
+  }
+  .container-info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 1.2rem;
+    margin-left:1rem; 
+    padding-top: 8rem; 
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 5);
+    color: rgb(255, 255, 255);
+  }
+  .botones {
+    margin-left: 3rem;
+    width: 90%;
+  }
+  .botones button a {
+    font-size: 1rem;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 5);
+    color: white;
+  }
+}
 @media screen and (max-width: 575.98px) {
   .grid-container {
     margin: 2rem;
-    margin-left: 2rem;
-    
+    margin-left: 4rem;
+    justify-items: center;
   }
   .card-container {
     grid-template-columns: repeat(2, 1fr);
@@ -230,12 +244,10 @@
   .container-info {
     display: flex;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     font-family: monospace;
-    font-size: 1rem;
-    margin-left: -2rem; 
-    padding-top: 9rem; 
+    font-size: 2rem;
+    margin-left: -1rem; 
+    padding-top: 15rem; 
     text-shadow: 3px 2px 4px rgba(0, 0, 0, 5);
     color: rgb(255, 255, 255);
   }
@@ -248,17 +260,18 @@
  
   .botones button a {
     
-    font-size: x-large;
+    font-size: 2rem;
     text-shadow: 3px 2px 4px rgba(0, 0, 0, 5);
     color: white;
     
 
   }
   .botones button {
-    width: 30%;
+    width: 35%;
     height: 3rem;
     display: flex;
     align-items: center;
+    justify-items: center;
     justify-content: center;
     border:solid 2px white;
     background-color: rgba(0, 0, 0, 0.395);
@@ -268,48 +281,3 @@
   .botones {
     margin-top: -17rem;
   }
-  
-
-  
-
-
-/* 
-@media screen and (min-width: 576px) {
-  .card {
-    width: 100%;
-  }
-}
-
-
-@media screen and (min-width: 768px) {
-  .grid-container {
-    margin: 10rem;
-  }
-  .card {
-    width: 90%;
-  }
-}
-
-
-@media screen and (min-width: 992px) {
-  .grid-container {
-    margin: 13rem;
-  }
-  .card {
-    width: 80%;
-  }
-}
-
-
-@media screen and (min-width: 1200px) {
-  .card {
-    width: 70%;
-  }
-}
-
-
-@media screen and (min-width: 1400px) {
-  .card {
-    width: 60%;
-  }
-} */
