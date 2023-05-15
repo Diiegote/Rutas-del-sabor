@@ -1,49 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Contacto</title>
-   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-   <script src="../js/navbar.js"></script>
-   <script src="../js/footer.js"></script>
-   <link rel="stylesheet" href="../css/contacto.css">
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="../css/contacto.css">
+  <script src="../js/formulario.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="../js/footer.js"></script>
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <script src="fontawesome/js/all.min.js"></script>
+
 </head>
 
 <body>
-   <div id="navbar"></div>
-   <form id="formulario" action="mailto:fabrisegat03@gmail.com" method="post" enctype="text/plain">
-      <fieldset>
-        <legend>Datos de contacto</legend>
-        <div class="input-container">
-          <label for="nombre">Nombre completo:</label>
-          <input type="text" name="nombre" id="nombre" required title="Completa este campo" placeholder="Nombre y apellido">
+  <div id="navbarContainer"></div>
+  <div class="container">
+    <div class="card">
+      <h2 class="text-center">Formulario de Contacto</h2>
+      <form action="https://formsubmit.co/diego.elprado22@gmail.com" method="POST"
+        onsubmit="return validarFormulario();">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" name="nombre">
         </div>
-    
-        <div class="input-container">
-          <label for="mail">Correo:</label>
-          <input type="email" name="mail" id="mail" required title="Completa este campo" placeholder="Ejemplo@ejemplo.com">
+        <div class="form-group">
+          <label for="apellido">Apellido:</label>
+          <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido" name="apellido">
         </div>
-    
-        <div class="input-container">
-          <label for="telefono">Teléfono:</label>
-          <input type="tel" name="telefono" id="telefono" required title="Completa este campo" placeholder="Teléfono">
+        <div class="form-group">
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico"
+            name="correo">
         </div>
-    
-        <div class="input-container">
-          <label for="datos">Consulta:</label>
-          <textarea name="consulta" id="datos" cols="20" rows="5" required title="Completa este campo" placeholder="Mensaje"></textarea>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea class="form-control" id="mensaje" rows="3" placeholder="Ingrese su mensaje"
+            name="mensaje"></textarea>
         </div>
-      </fieldset>
-      <button type="submit">Enviar</button>
-    </form>
-    
-    
-    
-   <div id="footer"></div>
+        <input type="hidden" name="_subject" value="¡Nuevo envío!">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+      </form>
+    </div>
+  </div>
+  <!-- <div id="successModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <i class="modal-icon fas fa-check-circle"></i>
+          <p>¡El formulario se ha enviado exitosamente!</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="../js/navbar-compartir.js"></script>
+
+ 
+
 </body>
 
 </html>
