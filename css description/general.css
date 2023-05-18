@@ -18,7 +18,7 @@
   background-color: #ff990022;
   box-shadow: 1px 1px 15px 4px rgba(0, 0, 0, 1.1);
   text-align: center;
-  height: 36em;
+  height: 37em;
   margin-right: 5em;
 }
 
@@ -27,6 +27,8 @@
   width: 35em;
   height: 25em;
   border-radius: 3em;
+  object-fit: cover;
+  box-shadow: 1px 1px 15px 4px rgba(0, 0, 0, 1.1);
 }
 .imagen {
  display: grid;
@@ -34,6 +36,7 @@
  width: 3em;
  margin-left: 3em;
  margin-top: 7em;
+ 
 
 }
 .card-container h1 {
