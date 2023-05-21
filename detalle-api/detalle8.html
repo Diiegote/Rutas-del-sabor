@@ -1,41 +1,35 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Croissants</title>
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="../css description/general.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <script src="fontawesome/js/all.min.js"></script>
 </head>
-
 <body>
-    <header>
-        <div id="navbarContainer"></div>
+    <div id="navbarContainer"></div>
     <div class="container">
-        <div class="imagen"><img src="../imagenes/Croissant01.jpg" alt="Croissants Frances"></div>
-      <div class="card-container">
-        <h1>Croissants Frances</h1>
-        <p>Los croissants son un panecillo de origen francés, de forma media luna y hojaldrado. Se suelen tomar para el
-            desayuno o la merienda, y se pueden comer solos o con mantequilla y mermelada.</p>
-        <p>Recomendacion: Si quieres probar unos croissants auténticos, te recomiendo que vayas a la
-            boulangerie-pâtisserie Dupain, en el barrio de Montmartre, Paris. Es un lugar pequeño pero acogedor, y los
-            croissants son deliciosos.</p>
-        <div>
-            <p><b>Dirección: 20 Bd des Filles du Calvaire, 75011 Paris, Francia</b></p>
-            <p><b>Teléfono: +33 1 58 30 72 36</b></p><br>
+        <div class="imagen" id="detalle7"></div>
+       <div class="card-container">
+        <h1>Jambalaya de frijol rojo</h1>
+        <p>La jambalaya de frijol rojo es un plato de origen cajún que combina sabores vibrantes y picantes en una deliciosa mezcla de arroz, frijoles rojos y una variedad de ingredientes aromáticos. </p>
+        <p>Recomendación: Para disfrutar de una deliciosa jambalaya de frijol rojo, te recomendaría visitar el restaurante Bayou Flavors.</p>
+            <p><b>Dirección: 4809 Brandenburg Ln, The Colony, TX 75056, Estados Unidos</b></p>
+            <p><b>Teléfono: ++19727045346</b></p><br>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.9633458046745!2d-122.08441578468076!3d37.42235862632899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857dffa4c82e6b%3A0x61d19c73af44cf86!2sGoogleplex!5e0!3m2!1sen!2sus!4v1524175187238" width="500" height="250" frameborder="0" style="border: 2px solid rgba(0, 0, 0, 0.341);box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 1.1);" allowfullscreen></iframe>
-            <button onclick="goBack()">Volver a destacado</button>
+        <div>
+            <button onclick="goBack()">Volver a platos</button>
             <script src="../js/volver-destacado.js"></script>
         </div>
-      </div>
+       </div>
     </div>
+    <script src="../js-api/detalle8.js"></script>
     <script src="../js/navbar-compartir.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
-    </header>
 </body>
-
 </html>
