@@ -1,72 +1,80 @@
-* {
-   margin: 0;
-   padding: 0;
- }
-
- #formulario {
-  max-width: 600px;
+.card {
+  max-width: 500px;
   margin: 0 auto;
+  margin-top: 10rem;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1); 
+}
+.container .card {
+  background-color: #b9bfc6 !important;
 }
 
-.input-container {
-  display: flex;
-  margin-bottom: 20px;
-  align-items: center;
+
+.custom-alert {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
 }
 
-label {
-  flex-basis: 30%;
-  font-weight: bold;
+.custom-alert.success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+.modal {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-input,
-textarea {
-  flex-basis: 70%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  font-size: 16px;
-}
-
-button[type="submit"] {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 20px;
-  cursor: pointer;
-  border-radius: 3px;
+.modal.show {
   display: block;
-  margin: 0 auto;
 }
 
-button[type="submit"]:hover {
-  background-color: #3e8e41;
+.modal-dialog {
+  max-width: 400px;
+  margin: 150px auto;
 }
 
-fieldset {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
-legend {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
+.modal-content {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
   text-align: center;
+  position: relative; 
 }
 
-/* Estilos para el fondo de la página */
-/* body {
-  background-image: linear-gradient(to bottom, #F5F5F5, #FFFFFF, #FFC0CB);
-} */
+.modal-body {
+  margin-bottom: 20px;
+}
+
+.modal-icon {
+  color: #155724; 
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+@media (max-width: 735px) {
+  .card {
+    margin-top: 12rem;
+  }
+}
+@media (max-width: 310px) {
+  .card {
+    margin-top: 20rem;
+  }
+}
+@media (max-width: 280px) {
+  .card {
+    margin-top: 13rem; 
+  }
+}
+
+
+
 
 
 
