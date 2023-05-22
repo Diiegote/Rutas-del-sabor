@@ -92,7 +92,7 @@
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
-  font-family: monospace;
+  font-family: 'Mukta', sans-serif;
 }
 
 .botones button a {
@@ -114,7 +114,7 @@
   flex-direction: column;
   font-size: x-large;
   padding: 20rem;
-  font-family: monospace;
+  font-family: 'Mukta', sans-serif;
 }
 
 @media screen and (min-width: 992px) {
@@ -140,7 +140,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-family: monospace;
+    font-family: 'Mukta', sans-serif;
     font-size: 1rem !important;
     margin-left: 1rem;
     padding-top: 20rem !important;
@@ -191,7 +191,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-family: monospace;
+    font-family: 'Mukta', sans-serif;
     font-size: 1.5rem;
     margin-left: 1rem;
     padding-top: 10rem;
@@ -233,7 +233,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-family: monospace;
+    font-family: 'Mukta', sans-serif;
     font-size: 1.2rem;
     margin-left: 1rem;
     padding-top: 8rem;
@@ -274,7 +274,7 @@
   .container-info {
     display: flex;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Mukta', sans-serif;
     font-size: 2rem;
     margin-left: -1rem;
     padding-top: 15rem;
