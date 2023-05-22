@@ -8,7 +8,7 @@ async function request() {
     
   ).data.results;
 
-//   const recetas = await resultado.map((a) => a[0]?.image);
+
   const recetas = resultado[5].image;
   let imagesContainer = document.getElementById("detalle5");
 
