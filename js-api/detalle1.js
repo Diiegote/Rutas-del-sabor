@@ -1,4 +1,4 @@
-const YOUR_API_KEY = "349da89437aa469fa7747b15547b184c";
+const YOUR_API_KEY = "ea6d6cd8ff54453a9dd74ef4f46e49be";
 
 async function request() {
   const resultado = (
