@@ -1,5 +1,5 @@
 function enviarCorreo(nombre, apellido, correo, mensaje) {
-  // Configurar los datos para enviar al servidor
+  
   var datos = {
     nombre: nombre,
     apellido: apellido,
@@ -7,7 +7,7 @@ function enviarCorreo(nombre, apellido, correo, mensaje) {
     mensaje: mensaje
   };
 
-  // Realizar la solicitud HTTP a la API de SendGrid
+  
   $.ajax({
     url: 'https://api.sendgrid.com/v3/mail/send',
     type: 'POST',
@@ -19,10 +19,10 @@ function enviarCorreo(nombre, apellido, correo, mensaje) {
     data: JSON.stringify({
       personalizations: [
         {
-          to: [{ email: 'tucorreo@example.com' }] // Cambia "tucorreo@example.com" por tu dirección de correo personal
+          to: [{ email: 'tucorreo@example.com' }] 
         }
       ],
-      from: { email: 'tucorreo@example.com' }, // Cambia "tucorreo@example.com" por tu dirección de correo personal
+      from: { email: 'tucorreo@example.com' }, 
       subject: 'Nuevo mensaje de contacto',
       content: [
         {
@@ -166,19 +166,7 @@ function mostrarAlerta(mensaje, tipo, inputId) {
   }
 }
 
-// function mostrarEnvioExitoso() {
-//   var successModal = document.getElementById("successModal");
-//   successModal.classList.add("show");
 
-//   setTimeout(function () {
-//     window.location.href = 'home.html';
-//   }, 3000);
-
-//   document.getElementById("nombre").value = "";
-//   document.getElementById("apellido").value = "";
-//   document.getElementById("correo").value = "";
-//   document.getElementById("mensaje").value = "";
-// }
 
 
 

@@ -35,7 +35,7 @@ async function request() {
     '../detalle-api/detalle8.html',
     '../detalle-api/detalle9.html',
     '../detalle-api/detalle10.html'
-    // Agrega más rutas de archivos HTML según sea necesario
+    
   ];
 
   let imagesContainer = document.getElementById("images-container");
