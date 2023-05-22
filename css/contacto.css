@@ -11,14 +11,13 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 1); 
 }
 .container .card {
-  background-color: #b9bfc6 !important;
+  background-color: #ff99001e !important;
 }
-
 
 .custom-alert {
   background-color: #f8d7da;
   border-color: #f5c6cb;
-  color: #721c24;
+  color: #740a15;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
